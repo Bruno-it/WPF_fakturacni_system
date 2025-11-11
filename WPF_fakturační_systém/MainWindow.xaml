@@ -1,0 +1,42 @@
+﻿<Window x:Class="FakturaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fakturační systém" Height="271" Width="460">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Odběratel:"/>
+        <TextBox x:Name="txtOdberatel" Grid.Row="0" Margin="120,0,0,5"/>
+
+        <TextBlock Text="Adresa:" Grid.Row="1"/>
+        <TextBox x:Name="txtAdresa" Grid.Row="1" Margin="120,0,0,5"/>
+
+        <TextBlock Text="IČO:" Grid.Row="2"/>
+        <TextBox x:Name="txtICO" Grid.Row="2" Margin="120,0,0,5"/>
+
+        <TextBlock Text="Služba:" Grid.Row="3"/>
+        <ComboBox x:Name="cmbSluzba" Grid.Row="3" Margin="120,0,0,5">
+            <ComboBoxItem Content="Poradenství v bankovnictví"/>
+            <ComboBoxItem Content="Poradenství v právu"/>
+        </ComboBox>
+
+        <TextBlock Text="Počet hodin:" Grid.Row="4"/>
+        <TextBox x:Name="txtHodiny" Grid.Row="4" Margin="120,0,0,5"/>
+
+        <TextBlock Text="Hodinová sazba (Kč):" Grid.Row="5"/>
+        <TextBox x:Name="txtSazba" Grid.Row="5" Margin="120,0,0,5"/>
+
+        <Button x:Name="btnVystavit" Grid.Row="6" Margin="0,15,0,0"
+                Content="Vystavit fakturu" Width="160" Height="35"
+                HorizontalAlignment="Center"
+                Click="btnVystavit_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+polovièní fakturaèní systém budeme øešit to co my budeme vystavovat žádné jiné faktury neøešíme a nebudeme vypsávat v pdfku ale v textovém 
+souboru budeme mít v databázi data, fakturace bude za dve sluzby a bud jen za jednu nebo za druhou je to téma poradenstvi na tema bankovnictvi nebo pravo 
+vymyslíme si nìjaký odbìratele vymyslím si pro nì jmeéno spoleènosti adresu a ièo vystavím fakturu a bude tam èástka korespondovat s odpracovanými 
+hodinami udaje budeme ukladat do databaze sql 
+
+C:\Users\23ib16_martinek\source\repos\WPF_fakturaèní_systém\WPF_fakturaèní_systém\WPF_fakturaèní_systém.csproj
